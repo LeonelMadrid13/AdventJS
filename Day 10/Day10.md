@@ -19,7 +19,7 @@ Las monedas para cambio que puedes usar son estas:
 ```
 
 Tenemos que crear una función que recibe el número de céntimos que hay que devolver al cliente
-y la función nos da un array con la combinación de monedas mínimas que debemos usar para
+y la función nos da un array con la **combinación de monedas mínimas** que debemos usar para
 conseguirlo.
 
 ``` javascript
@@ -32,4 +32,18 @@ conseguirlo.
 
 La dificultad del reto está en saber utilizar correctamente una estructura que te permita conocer
 las monedas que tienes disponible para crear el array con la devolución,
-ya que debes usar siempre el menor número de monedas posible. ¡Suerte 👩‍💻👨‍💻!.
+ya que **debes usar siempre el menor número de monedas posible**. ¡Suerte 👩‍💻👨‍💻!.
+
+----------------------------------------
+
+## Pensamientos
+Creo que se pude utilizar un map para ver cuanta cantidad de monedas se requieren en cada configuracion, tmbn podemos ver con una division para ver cuantas veces cabe cada numero en el cambio a devolver y dependiendo el numero mas bajo es el primero
+
+```javascript
+function getCoins(change) {
+    // ¡No olvides compartir tu solución en redes!
+    while (change != 0){
+        var divided = change.map()
+    }
+} 
+```
